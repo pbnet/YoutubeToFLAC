@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>convert.ico</ApplicationIcon>
+    <Title>YoutubeToFLAC</Title>
+    <Authors>Andrei Rachita</Authors>
+    <Company>PhoeNIXBird Networks</Company>
+    <Product>1.0</Product>
+    <Description>Youtube to FLAC converter</Description>
+    <Copyright>Andrei Rachita @ PhoeNIXBird Networks</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="convert.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="YoutubeExplode" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>
